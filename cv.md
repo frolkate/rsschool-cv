@@ -15,3 +15,10 @@
 >After graduating from university for a long time I could not decide who I want to be and what I want to do. 
 >That's why I'm here  - *RS School*. 
 >My goal is to gain the skills and knowledge to apply for a position Junior Frontend Developer.
+
+## Education
+
+>Belarusian National Technical University \
+>Department of Information Technology and Robotics \
+>BA in Information Technology (2009-2014)
+
