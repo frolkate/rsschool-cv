@@ -22,3 +22,9 @@
 >Department of Information Technology and Robotics \
 >BA in Information Technology (2009-2014)
 
+## Skills
+
+- MS Visual Studio
+- C#
+- Git, GitHub
+- HTML, CSS
