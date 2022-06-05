@@ -55,4 +55,8 @@ function isIsogram(str){
   return Isogram;
 }
 ```
+## Languages
 
+1. Russian
+2. Belarussian
+3. English - A2
