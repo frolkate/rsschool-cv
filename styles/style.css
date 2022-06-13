@@ -33,3 +33,7 @@ a {
 h2 { 
   border-bottom:1px solid #000000;
 }
+
+.education ul{
+  list-style-type: none;
+}
