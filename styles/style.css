@@ -1,17 +1,25 @@
+body{
+  background-color: #fccef3;
+}
 .wrapper {
   margin: 0 auto;
   width: 960px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
 }
 
 h1 {
+  padding-top: 20px;
   text-align: center;
+  color: #fccef3;
 }
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #fccef3
 }
 
 .menu ul li {
@@ -20,31 +28,45 @@ a {
 }
 
 .menu ul {
+  padding: 10px 0 10px 0;
   text-align: center;
-  border-style: double; 
+  border-bottom: 1px solid #fccef3;
 }
 
+.photo{
+  padding-left: 40px;
+}
 .contacts ul {
-  padding:0 0 0 250px;
+  padding:0 0 0 300px;
   margin-top: -150px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   list-style-type: none;
+  line-height: 150%;
 }
 
 p{
   text-indent: 40px;
+  line-height: 150%;
 }
 
 h2 { 
   border-bottom:1px solid #000000;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: #fccef3;
+  color: #000000;
 }
 
 .education ul{
   list-style-type: none;
+  line-height: 150%;
 }
 
 .footer-1 ul{
+  border-top: 1px solid #fccef3;
   text-align: center;
   padding-top: 20px;
   list-style-type: none;
+  color: #fccef3;
 }
