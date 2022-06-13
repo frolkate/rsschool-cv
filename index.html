@@ -6,94 +6,134 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <div class="wrapper">
+  <div class="wrapper">
     <header>
-        <h1>Ekaterina Frolova</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="#id_about-me">About me</a></li>
-                <li><a href="#id_education">Education</a></li>
-                <li><a href="#id_skills">Skills</a></li>
-                <li><a href="#id_code-example">Code Example</a></li>
-                <li><a href="#id_languages">Languages</a></li>
-            </ul>
-        </nav>
-        <img class="photo" src="./pictures/photo_cv.jpg" alt="photo" width="223" height="197">
-        <div class="contacts" id="id_contacts">
+      <h1>Ekaterina Frolova</h1>
+      <nav class="menu">
         <ul>
-            <li><b>Location: </b><i>Borisov, Belarus</i></li>
-            <li><b>Discord: </b><i>frolkate</i></li>
-            <li><b>E-mail: </b><i>frolkate.alex@gmail.com</i></li>
+          <li>
+            <a href="#id_about-me">About me</a>
+          </li>
+          <li>
+            <a href="#id_education">Education</a>
+          </li>
+          <li>
+            <a href="#id_skills">Skills</a>
+          </li>
+          <li>
+           <a href="#id_code-example">Code Example</a>
+          </li>
+          <li>
+            <a href="#id_languages">Languages</a>
+          </li>
         </ul>
-        </div>
+      </nav>
+      <img class="photo" src="./pictures/photo_cv.jpg" alt="photo" width="223" height="197">
+      <div class="contacts" id="id_contacts">
+        <ul>
+          <li>
+            <span class="color-word">Location: </span>Borisov, Belarus
+          </li>
+          <li>
+            <span class="color-word">Discord: </span>frolkate
+          </li>
+          <li>
+            <span class="color-word">E-mail: </span>frolkate.alex@gmail.com
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-        <section class="about-me" id="id_about-me">
-            <h2>About me</h2>
-            <p>I work as a specialist in the Software User Support department at a bank for 8 years.
-               Got into the bank by distribution.
-               I am a software engineer by education. 
-               After graduating from university for a long time I could not decide who I want to be and what I want to do. 
-               That’s why I’m here - <b>RS School</b>. 
-               My goal is to gain the skills and knowledge to apply for a position <b>Junior Frontend Developer</b>.</p>
-        </section>
-        <section class="education" id="id_education">
-            <h2>Education</h2>
-            <ul>
-                <li>Belarusian National Technical University</li>
-                <li>Department of Information Technology and Robotics</li>
-                <li>BA in Information Technology (2009-2014)</li>
-            </ul>
-        </section>
-        <section class="skills" id="id_skills">
+      <section class="about-me" id="id_about-me">
+        <h2>About me</h2>
+        <p>I work as a specialist in the Software User Support department at a bank for 8 years.
+          Got into the bank by distribution.
+          I am a software engineer by education. 
+          After graduating from university for a long time I could not decide who I want to be and what I want to do. 
+          That’s why I’m here - <span class="color-word">RS School</span>. 
+          My goal is to gain the skills and knowledge to apply for a position <span class="color-word">Junior Frontend Developer</span>.</p>
+      </section>
+      <section class="education" id="id_education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            Belarusian National Technical University
+          </li>
+          <li>
+            Department of Information Technology and Robotics
+          </li>
+          <li>
+            BA in Information Technology (2009-2014)
+          </li>
+        </ul>
+      </section>
+      <section class="skills" id="id_skills">
         <h2>Skills</h2>
-            <ul>
-                <li>MS Visual Studio</li>
-                <li>C#</li>
-                <li>Git, GitHub</li>
-                <li>HTML, CSS</li>
-            </ul>
-        </section>
-        <section class="code-example" id="id_code-example">
+        <ul>
+          <li>
+            MS Visual Studio
+          </li>
+          <li>
+            C#
+          </li>
+          <li>
+            Git, GitHub
+          </li>
+          <li>
+            HTML, CSS
+          </li>
+        </ul>
+      </section>
+      <section class="code-example" id="id_code-example">
         <h2>Code Example</h2>
         <pre><code>
-            function isIsogram(str){
+          function isIsogram(str){
   
-                let Isogram = true;
-                str = str.toLowerCase();
+            let Isogram = true;
+            str = str.toLowerCase();
                 
-                 for (let i = 0; i &lt; str.length; i++)
-                    {
-                     for (let j = i + 1; j &lt; str.length; j++) 
-                       {
-                        if (Isogram == true)
-                         {       
-                         if (str[i] == (str[j])) Isogram = false;    
+               for (let i = 0; i &lt; str.length; i++){
+                 for (let j = i + 1; j &lt; str.length; j++){ 
+                   if (Isogram == true){     
+                     if (str[i] == (str[j])) Isogram = false;    
                     }
-                         }     
-                       }
-              
+                  }     
+                }            
                 return Isogram;
-            }
+           }
         </code></pre>             
         </section>
         <section class="languages" id="id_languages">
-        <h2>Languages</h2>
-        <ol>
-        <li>Russian</li>
-        <li>Belarusian</li>
-        <li>English-A2</li>
-        </ol>     
+          <h2>Languages</h2>
+          <ol>
+             <li>
+               Russian
+             </li>
+             <li>
+              Belarusian
+             </li>
+             <li>
+              English-A2
+             </li>
+           </ol>     
         </section>
     </main>
     <footer class="footer-1">
-        <ul>
-          <li><a href="https://rs.school/js/"><img src="./images/logo.jpg" alt="logo" width="160" height="60"></a></li>
-          <li><a href="https://github.com/frolkate">Ekaterina Frolova (github)</a></li>
-          <li><a href="#id_contacts">Contacts</a></li>
-          <li>2022</li>
-        </ul>
+      <ul>
+        <li>
+          <a href="https://rs.school/js/"><img src="./images/logo.jpg" alt="logo" width="160" height="60"></a>
+        </li>
+        <li>
+          <a href="https://github.com/frolkate">Ekaterina Frolova (github)</a>
+        </li>
+        <li>
+          <a href="#id_contacts">Contacts</a>
+        </li>
+        <li>
+          2022
+        </li>
+      </ul>
     </footer>
-</div>
+  </div>
 </body>
 </html>
