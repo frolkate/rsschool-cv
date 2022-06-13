@@ -13,6 +13,7 @@ a {
   text-decoration: none;
   color: #000000;
 }
+
 .menu ul li {
   display: inline-block;
   padding-right: 100px;
@@ -41,4 +42,10 @@ h2 {
 .code-example{
   background-color:#e6fbfe;
   font-size:1.1em;
+}
+
+.footer-1 ul{
+  text-align: center;
+  padding-top: 20px;
+  list-style-type: none;
 }
