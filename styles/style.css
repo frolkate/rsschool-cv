@@ -1,4 +1,10 @@
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+  text-align: left;
+}
+
 h1 {
     color: white;
     background-color: black;
-  }
+   }
