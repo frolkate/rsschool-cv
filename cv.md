@@ -1,6 +1,6 @@
 # ***Ekaterina Frolova***
 ***
-![Image](photo_cv.jpg)
+![Image](./pictures/photo_cv.jpg)
 ***
 ## Contacts
 
