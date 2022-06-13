@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://frolkate.github.io/rsschool-cv/
+https://frolkate.github.io/rsschool-cv/cv
