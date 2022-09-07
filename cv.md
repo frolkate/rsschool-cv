@@ -6,14 +6,14 @@
 
 >**Location:** *Borisov, Belarus* \
 >**Discord:** *frolkate* \
-> **E-mail:** *frolkate.alex@gmail.com*  
+> **E-mail:** *frolkate.alex@gmail.com*
 
 ## About Me
 
->I work as a specialist in the Software User Support department at a bank for 8 years. Got into the bank by distribution. 
->I am a software engineer by education. 
->After graduating from university for a long time I could not decide who I want to be and what I want to do. 
->That's why I'm here  - *RS School*. 
+>I work as a specialist in the Software User Support department at a bank for 8 years. Got into the bank by distribution.
+>I am a software engineer by education.
+>After graduating from university for a long time I could not decide who I want to be and what I want to do.
+>That's why I'm here  - *RS School*.
 >My goal is to gain the skills and knowledge to apply for a position Junior Frontend Developer.
 
 ## Education
@@ -33,23 +33,23 @@
 
 ```
 function isIsogram(str){
-  
+
   let Isogram = true;
-  
+
   str = str.toLowerCase();
-  
+
    for (let i = 0; i < str.length; i++)
       {
-       for (let j = i + 1; j < str.length; j++) 
+       for (let j = i + 1; j < str.length; j++)
          {
           if (Isogram == true)
             {
-                
-           if (str[i] == (str[j])) Isogram = false;    
+
+           if (str[i] == (str[j])) Isogram = false;
       }
            }
-        
-      
+
+
      }
 
   return Isogram;
