@@ -1,1 +1,1 @@
-# rsschool-cv
+https://FROLKATE.github.io/rsschool-cv/cv
