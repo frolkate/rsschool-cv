@@ -4,6 +4,7 @@
 
 ## **Contact**
 + frolkate.alex@gmail.com
++ Discord: frolkate
 
 ## **Skills**
 + C#
@@ -13,7 +14,7 @@
 
 ## **Languages**
 + Russian
-+ English
++ English (B1)
 
 # **Education**
 
@@ -36,4 +37,25 @@ Belarusbank - Minsk, 2014 - 2019
 
 Belagroprombank - Minsk,  2019 - present
 
+# **Code**
+
+```function unluckyDays(year){
+  let dateStart = new Date ("January, 12" + " "+ year);
+  let date = dateStart;
+  let count = 0;
+
+  for (let i = 0; i < 350; i ++){
+
+   let day = date.getDay();
+   let number = date.getDate();
+
+    if ( day == 5 &&  number == 13){
+      count ++;
+    }
+        date.setDate(date.getDate() + 1);
+
+  }
+  return count;
+}
+```
 
